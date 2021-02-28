@@ -25,7 +25,7 @@ public class WebdriverUtils {
 
             switch (browserType.toLowerCase()){
                 case "firefox" :
-                    System.setProperty("webdriver.gecko.driver" , "C:\\Users\\Pati\\Desktop\\Drivers\\geckodriver-v0.28.0-win64\\geckodriver.exe");
+                    System.setProperty("webdriver.gecko.driver" ,  "C:\\Users\\Pati\\Desktop\\Drivers\\geckodriver-v0.28.0-win64\\geckodriver.exe"git );
                     driver = new FirefoxDriver();
                     break;
                 default:
